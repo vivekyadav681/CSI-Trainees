@@ -40,3 +40,9 @@ nav {
     display: flex;
     gap: 20px;
 }
+
+.homebox {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(234, 172, 91);
+}
