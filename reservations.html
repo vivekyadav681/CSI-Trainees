@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation@TheKettle</title>
+    <link rel="stylesheet" href="stylesheets/home.css">
+  </head>
+  <body>
+    <header>
+      <h1>The Kettle</h1>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="events.html">Events</a>
+        <a href="reservations.html">Make Reservations</a>
+        <a href="aboutUs.html">About Us</a>
+      </nav>
+    </header>
+    <div>
+      <form action="/submit" method="get">
+        <label for="Name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <label for="Contact">Contact Details:</label>
+        <input type="text" id="Contact" name="Contact" />
+        <label for="number">Number of guests:</label>
+        <input type="text" id="number" name="number" />
+        <label for="date">Date of reservation:</label>
+        <input type="date" id="date" name="date" />
+        <label for="time">Your arrival time:</label>
+        <input type="time" id="time" name="time" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
